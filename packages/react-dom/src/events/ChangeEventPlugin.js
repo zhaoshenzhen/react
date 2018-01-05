@@ -199,7 +199,7 @@ function getTargetInstForInputEventPolyfill(topLevelType, targetInst) {
  * SECTION: handle `click` event
  */
 function isCheckableInput(elem) {
-  var nodeName = elem.nodeName;
+  const nodeName = elem.nodeName;
   return (
     nodeName &&
     nodeName.toLowerCase() === 'input' &&
